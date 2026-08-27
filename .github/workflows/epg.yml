@@ -4,151 +4,449 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "17 */1 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
 
 jobs:
+
   update-epg:
 
     runs-on: ubuntu-latest
 
     steps:
 
+      # =====================================================
+      # CHECKOUT REPOSITORY
+      # =====================================================
+
       - name: Checkout
         uses: actions/checkout@v4
 
+
+      # =====================================================
+      # DOWNLOAD + MERGE EPG
+      # =====================================================
+
       - name: Download and merge EPG
         run: |
+
           python3 <<'PY'
+
           import urllib.request
+          import gzip
           import re
           from pathlib import Path
 
+
+          # =====================================================
+          # EPG SOURCES
+          # =====================================================
+
           sources = [
-              "https://github.com/AqFad2811/epg/raw/refs/heads/main/unifitv.xml",
-              "https://github.com/AqFad2811/epg/raw/refs/heads/main/sooka.xml",
-              "https://github.com/AqFad2811/epg/raw/refs/heads/main/epg.xml"
+
+              (
+                  "unifitv",
+                  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/compressed/unifitv.xml.gz",
+                  True
+              ),
+
+              (
+                  "rtmklik",
+                  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/compressed/rtmklik.xml.gz",
+                  True
+              ),
+
+              (
+                  "sooka",
+                  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/compressed/sooka.xml.gz",
+                  True
+              ),
+
+              (
+                  "epg",
+                  "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/compressed/epg.xml.gz",
+                  True
+              )
+
           ]
 
+
+          # =====================================================
+          # STORAGE
+          # =====================================================
+
           channels = {}
+
           programmes = {}
 
-          for url in sources:
 
-              print("Downloading:", url)
+          # =====================================================
+          # DOWNLOAD EACH SOURCE
+          # =====================================================
+
+          for name, url, is_gzip in sources:
+
+              print("")
+              print("========================================")
+              print("SOURCE:", name)
+              print("========================================")
 
               try:
-                  req = urllib.request.Request(
+
+                  request = urllib.request.Request(
                       url,
                       headers={
                           "User-Agent": "Mozilla/5.0"
                       }
                   )
 
-                  with urllib.request.urlopen(req, timeout=60) as response:
-                      data = response.read().decode("utf-8", errors="ignore")
 
-                  print("Size:", len(data))
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=120
+                  ) as response:
 
-              except Exception as e:
-                  print("FAILED:", e)
+                      data = response.read()
+
+
+                  print(
+                      "Downloaded:",
+                      len(data),
+                      "bytes"
+                  )
+
+
+                  # =================================================
+                  # DECOMPRESS GZIP
+                  # =================================================
+
+                  if is_gzip:
+
+                      print(
+                          "Decompressing GZIP..."
+                      )
+
+                      data = gzip.decompress(data)
+
+                      print(
+                          "Decompressed:",
+                          len(data),
+                          "bytes"
+                      )
+
+
+                  # =================================================
+                  # DECODE XML
+                  # =================================================
+
+                  text = data.decode(
+                      "utf-8",
+                      errors="ignore"
+                  )
+
+
+                  # =================================================
+                  # VALIDATE XMLTV
+                  # =================================================
+
+                  if not text.strip():
+
+                      print(
+                          "EMPTY SOURCE"
+                      )
+
+                      continue
+
+
+                  if (
+                      "<channel" not in text
+                      and
+                      "<programme" not in text
+                  ):
+
+                      print(
+                          "NOT XMLTV"
+                      )
+
+                      continue
+
+
+                  # =================================================
+                  # REMOVE XML DECLARATION
+                  # =================================================
+
+                  text = re.sub(
+                      r'<\?xml[\s\S]*?\?>',
+                      '',
+                      text,
+                      flags=re.I
+                  )
+
+
+                  # =================================================
+                  # CHANNEL
+                  # =================================================
+
+                  channel_matches = re.findall(
+                      r'<channel\b[\s\S]*?</channel>',
+                      text,
+                      flags=re.I
+                  )
+
+
+                  print(
+                      "Channels found:",
+                      len(channel_matches)
+                  )
+
+
+                  for channel in channel_matches:
+
+                      match = re.search(
+                          r'<channel[^>]*\bid=["\']([^"\']+)',
+                          channel,
+                          flags=re.I
+                      )
+
+
+                      if not match:
+
+                          continue
+
+
+                      channel_id = match.group(1)
+
+
+                      # First source wins
+                      if channel_id not in channels:
+
+                          channels[channel_id] = channel
+
+
+                  # =================================================
+                  # PROGRAMMES
+                  # =================================================
+
+                  programme_matches = re.findall(
+                      r'<programme\b[\s\S]*?</programme>',
+                      text,
+                      flags=re.I
+                  )
+
+
+                  print(
+                      "Programmes found:",
+                      len(programme_matches)
+                  )
+
+
+                  for programme in programme_matches:
+
+                      channel_match = re.search(
+                          r'<programme[^>]*\bchannel=["\']([^"\']+)',
+                          programme,
+                          flags=re.I
+                      )
+
+
+                      start_match = re.search(
+                          r'<programme[^>]*\bstart=["\']([^"\']+)',
+                          programme,
+                          flags=re.I
+                      )
+
+
+                      if not channel_match:
+
+                          continue
+
+
+                      if not start_match:
+
+                          continue
+
+
+                      channel_id = channel_match.group(1)
+
+                      start = start_match.group(1)
+
+
+                      # =================================================
+                      # DUPLICATE KEY
+                      # =================================================
+
+                      key = (
+                          channel_id
+                          + "|"
+                          + start
+                      )
+
+
+                      if key not in programmes:
+
+                          programmes[key] = programme
+
+
+              except Exception as error:
+
+                  print(
+                      "SOURCE FAILED:",
+                      name
+                  )
+
+                  print(
+                      str(error)
+                  )
+
                   continue
 
-              # Remove XML declaration
-              data = re.sub(
-                  r'<\?xml[\s\S]*?\?>',
-                  '',
-                  data,
-                  flags=re.I
-              )
 
-              # Extract channels
-              channel_matches = re.findall(
-                  r'<channel\b[\s\S]*?</channel>',
-                  data,
-                  flags=re.I
-              )
+          # =====================================================
+          # BUILD FINAL XMLTV
+          # =====================================================
 
-              for channel in channel_matches:
+          print("")
+          print("========================================")
+          print("BUILDING XMLTV")
+          print("========================================")
 
-                  match = re.search(
-                      r'<channel[^>]*\bid=["\']([^"\']+)["\']',
-                      channel,
-                      flags=re.I
-                  )
 
-                  if not match:
-                      continue
+          output = []
 
-                  channel_id = match.group(1)
 
-                  if channel_id not in channels:
-                      channels[channel_id] = channel
+          output.append(
+              '<?xml version="1.0" encoding="UTF-8"?>'
+          )
 
-              # Extract programmes
-              programme_matches = re.findall(
-                  r'<programme\b[\s\S]*?</programme>',
-                  data,
-                  flags=re.I
-              )
 
-              for programme in programme_matches:
-
-                  channel_match = re.search(
-                      r'<programme[^>]*\bchannel=["\']([^"\']+)["\']',
-                      programme,
-                      flags=re.I
-                  )
-
-                  start_match = re.search(
-                      r'<programme[^>]*\bstart=["\']([^"\']+)["\']',
-                      programme,
-                      flags=re.I
-                  )
-
-                  if not channel_match or not start_match:
-                      continue
-
-                  channel_id = channel_match.group(1)
-                  start = start_match.group(1)
-
-                  key = channel_id + "|" + start
-
-                  if key not in programmes:
-                      programmes[key] = programme
-
-          print("Channels:", len(channels))
-          print("Programmes:", len(programmes))
-
-          output = [
-              '<?xml version="1.0" encoding="UTF-8"?>',
+          output.append(
               '<tv>'
-          ]
+          )
 
-          output.extend(channels.values())
-          output.extend(programmes.values())
 
-          output.append('</tv>')
+          # =====================================================
+          # CHANNELS
+          # =====================================================
 
-          Path("merged.xml").write_text(
-              "\n".join(output),
+          for channel in channels.values():
+
+              output.append(
+                  channel
+              )
+
+
+          # =====================================================
+          # PROGRAMMES
+          # =====================================================
+
+          for programme in programmes.values():
+
+              output.append(
+                  programme
+              )
+
+
+          output.append(
+              '</tv>'
+          )
+
+
+          # =====================================================
+          # FINAL XML
+          # =====================================================
+
+          final_xml = "\n".join(
+              output
+          )
+
+
+          # =====================================================
+          # SAVE
+          # =====================================================
+
+          Path(
+              "merged.xml"
+          ).write_text(
+              final_xml,
               encoding="utf-8"
           )
 
-          print("Final XML size:",
-                Path("merged.xml").stat().st_size)
+
+          # =====================================================
+          # FILE SIZE
+          # =====================================================
+
+          size = Path(
+              "merged.xml"
+          ).stat().st_size
+
+
+          # =====================================================
+          # RESULT
+          # =====================================================
+
+          print("")
+          print("========================================")
+          print("FINAL RESULT")
+          print("========================================")
+
+          print(
+              "Channels:",
+              len(channels)
+          )
+
+          print(
+              "Programmes:",
+              len(programmes)
+          )
+
+          print(
+              "Final XML size:",
+              size,
+              "bytes"
+          )
+
+          print(
+              "Final XML size:",
+              round(size / 1024 / 1024, 2),
+              "MB"
+          )
+
+          print("")
+          print(
+              "EPG MERGE COMPLETE"
+          )
 
           PY
 
-      - name: Commit merged XML
+
+      # =====================================================
+      # COMMIT MERGED XML
+      # =====================================================
+
+      - name: Save merged XML
         run: |
+
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
 
           git add merged.xml
 
-          git diff --cached --quiet || git commit -m "Update EPG"
 
-          git push
+          if git diff --cached --quiet; then
+
+              echo "No changes detected"
+
+          else
+
+              git commit \
+                -m "Update EPG"
+
+              git push
+
+          fi
