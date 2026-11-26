@@ -1,0 +1,487 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml"
+#=============================================================================#
+#  Vidio Premium Playlist (Login Akun + DASH MPD + Widevine DRM)
+#  Optimized for Kodi (InputStream Adaptive), OTT Navigator, TiviMate & VLC
+#=============================================================================#
+
+# --- 1. RCTI ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/665/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="665" tvg-name="RCTI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/RCTI_logo_2015.svg" group-title="Vidio (Nasional)",RCTI
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/665/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/665/index.mpd
+
+# --- 2. TRANS TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/733/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="733" tvg-name="TRANS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Trans_TV_logo_2013.svg" group-title="Vidio (Nasional)",TRANS TV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/733/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/733/index.mpd
+
+# --- 3. Trans7 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/734/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="734" tvg-name="Trans7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Trans7_logo_2013.svg" group-title="Vidio (Nasional)",Trans7
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/734/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/734/index.mpd
+
+# --- 4. GTV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/778/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="778" tvg-name="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/GTV_%28Indonesia%29_logo_2017.svg" group-title="Vidio (Nasional)",GTV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/778/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/778/index.mpd
+
+# --- 5. MNCTV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/870/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="870" tvg-name="MNCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/MNCTV_logo_2015.svg" group-title="Vidio (Nasional)",MNCTV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/870/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/870/index.mpd
+
+# --- 6. Kompas TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="874" tvg-name="Kompas TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Kompas_TV_2018.svg" group-title="Vidio (Berita)",Kompas TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/874/index.mpd
+
+# --- 7. iNews ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/5409/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="5409" tvg-name="iNews" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/INews_2023.svg" group-title="Vidio (Berita)",iNews
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/5409/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/5409/index.mpd
+
+# --- 8. Bein 1 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6299/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6299" tvg-name="Bein 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/BeIN_Sports_logo.svg" group-title="Vidio (Sports)",Bein 1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6299/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6299/index.mpd
+
+# --- 9. Bein 3 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6317/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6317" tvg-name="Bein 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/BeIN_Sports_logo.svg" group-title="Vidio (Sports)",Bein 3
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6317/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6317/index.mpd
+
+# --- 10. TVN ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6362/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6362" tvg-name="TVN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvN_2021_logo.svg" group-title="Vidio (Entertainment)",TVN
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6362/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6362/index.mpd
+
+# --- 11. Horee ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6397/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6397" tvg-name="Horee" group-title="Vidio (Anak)",Horee
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6397/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6397/index.mpd
+
+# --- 12. CNA ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6411" tvg-name="CNA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b5/CNA_%28news_channel%29_logo.svg" group-title="Vidio (Berita)",CNA
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6411/index.mpd
+
+# --- 13. Champions TV 1 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6685/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6685" tvg-name="Champions TV 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Champions_TV_logo.png/500px-Champions_TV_logo.png" group-title="Vidio (Sports)",Champions TV 1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6685/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6685/index.mpd
+
+# --- 14. Champions TV 2 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6686/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6686" tvg-name="Champions TV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Champions_TV_logo.png/500px-Champions_TV_logo.png" group-title="Vidio (Sports)",Champions TV 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6686/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6686/index.mpd
+
+# --- 15. Champions TV 3 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6786/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="6786" tvg-name="Champions TV 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Champions_TV_logo.png/500px-Champions_TV_logo.png" group-title="Vidio (Sports)",Champions TV 3
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/6786/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/6786/index.mpd
+
+# --- 16. Hip Hip Horee! ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="7052" tvg-name="Hip Hip Horee!" group-title="Vidio (Anak)",Hip Hip Horee!
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/7052/index.mpd
+
+# --- 17. Magna TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="7230" tvg-name="Magna TV" group-title="Vidio (Nasional)",Magna TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/7230/index.mpd
+
+# --- 18. NHK World Japan ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="7968" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/NHK_World-Japan_logo_2020.svg" group-title="Vidio (Berita)",NHK World Japan
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/7968/index.mpd
+
+# --- 19. Rock Action ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/8121/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="8121" tvg-name="Rock Action" group-title="Vidio (Entertainment)",Rock Action
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/8121/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/8121/index.mpd
+
+# --- 20. Champions TV 5 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9182/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="9182" tvg-name="Champions TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Champions_TV_logo.png/500px-Champions_TV_logo.png" group-title="Vidio (Sports)",Champions TV 5
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9182/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/9182/index.mpd
+
+# --- 21. Champions TV 6 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9183/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="9183" tvg-name="Champions TV 6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Champions_TV_logo.png/500px-Champions_TV_logo.png" group-title="Vidio (Sports)",Champions TV 6
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9183/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/9183/index.mpd
+
+# --- 22. Premier League TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9353/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="9353" tvg-name="Premier League TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f2/Premier_League_Logo.svg" group-title="Vidio (Sports)",Premier League TV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/9353/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/9353/index.mpd
+
+# --- 23. SPOTV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17139/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="17139" tvg-name="SPOTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/SPOTV_logo.svg" group-title="Vidio (Sports)",SPOTV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17139/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/17139/index.mpd
+
+# --- 24. SPOTV 2 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17140/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="17140" tvg-name="SPOTV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/87/SPOTV_logo.svg" group-title="Vidio (Sports)",SPOTV 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17140/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/17140/index.mpd
+
+# --- 25. Bein 2 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17875/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="17875" tvg-name="Bein 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/69/BeIN_Sports_logo.svg" group-title="Vidio (Sports)",Bein 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/17875/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/17875/index.mpd
+
+# --- 26. Champions Golf 1 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/18189/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="18189" tvg-name="Champions Golf 1" group-title="Vidio (Sports)",Champions Golf 1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/18189/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/18189/index.mpd
+
+# --- 27. Champions Golf 2 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/18190/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="18190" tvg-name="Champions Golf 2" group-title="Vidio (Sports)",Champions Golf 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/18190/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/18190/index.mpd
+
+# --- 28. Real Madrid TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/19538/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="19538" tvg-name="Real Madrid TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" group-title="Vidio (Sports)",Real Madrid TV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/19538/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/19538/index.mpd
+
+# --- 29. Champions Fight ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/20216/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="20216" tvg-name="Champions Fight" group-title="Vidio (Sports)",Champions Fight
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/20216/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/20216/index.mpd
+
+# --- 30. WTA ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/20902/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="20902" tvg-name="WTA" group-title="Vidio (Sports)",WTA
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/20902/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/20902/index.mpd
+
+# --- 31. Citra Drama ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/21179/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="21179" tvg-name="Citra Drama" group-title="Vidio (Entertainment)",Citra Drama
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/21179/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/21179/index.mpd
+
+# --- 32. Citra Plus ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/21289/license
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="21289" tvg-name="Citra Plus" group-title="Vidio (Entertainment)",Citra Plus
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://vidio123.mikrofast.web.id/vidio/21289/license
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/21289/index.mpd
+
+# --- 33. Bloomberg TV ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="22252" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bloomberg_Television_logo.svg/512px-Bloomberg_Television_logo.svg.png" group-title="Vidio (Berita)",Bloomberg TV
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/22252/index.mpd
+
+# --- 34. France24 ---
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://m.vidio.com/&Origin=https://m.vidio.com&User-Agent=Mozilla%2F5.0%20(Linux%3B%20Android%2014%3B%20Google%20TV%20Streamer%20Build%2FUTT3.240625.001.K5%3B%20wv)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Version%2F4.0%20Chrome%2F130.0.6723.60%20Mobile%20Safari%2F537.36
+#EXTINF:-1 tvg-id="22337" tvg-name="France24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/France_24_logo.svg" group-title="Vidio (Berita)",France24
+#EXTVLCOPT:http-referrer=https://m.vidio.com/
+#EXTVLCOPT:http-origin=https://m.vidio.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
+#EXTHTTP:{"Referer":"https://m.vidio.com/","Origin":"https://m.vidio.com","User-Agent":"Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36"}
+https://vidio123.mikrofast.web.id/vidio/22337/index.mpd
